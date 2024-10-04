@@ -1,10 +1,10 @@
-import React, { PropsWithChildren } from 'react'
+import { PropsWithChildren } from 'react'
 
 const AuthLayout = ({ children }: PropsWithChildren) => {
     return (
-        <>
+        <div className='flex h-screen w-full items-center justify-center'>
             {children}
-        </>
+        </div>
     )
 }
 
