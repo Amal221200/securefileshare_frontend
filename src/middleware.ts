@@ -1,5 +1,5 @@
 import { auth } from "./auth";
-import { apiAuthPrefix, DEFAULT_LOGIN_REDIRECT, authRoutes } from "../routes";
+import { apiAuthPrefix, DEFAULT_LOGIN_REDIRECT, authRoutes } from "./routes";
 import { NextResponse } from "next/server";
 
 export const config = {
