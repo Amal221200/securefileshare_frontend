@@ -1,4 +1,3 @@
-"use server";
 import { ApiError, RedirectError } from "./ErrorUtils";
 
 export default function handleApiError(error: unknown): { status: number; message: string; location?: string } {

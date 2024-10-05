@@ -62,6 +62,6 @@ export async function RegisterApi({
 }
 
 
-export async function LogoutApi() {
+export async function Logout() {
     await signOut({ redirectTo: "/login" });
 }

@@ -12,7 +12,7 @@ export default async function GlobalApiCall({ url, options }: GlobalApiCallProps
         const session = await getCurrentUser();
 
         const token = session?.accessToken ?? null;
-
+        
         const response = await fetch(url, {
             ...options,
             credentials: "include",
